@@ -1,0 +1,60 @@
+[flavor]
+dark = "catppuccin-mocha"
+light = "catppuccin-latte"
+
+[icon]
+globs = []
+
+dirs = [
+  { name = "Desktop", text = "▣", fg = "#94e2d5" },
+  { name = "Documents", text = "▣", fg = "#94e2d5" },
+  { name = "Downloads", text = "▣", fg = "#f9e2af" },
+  { name = "Library", text = "▣", fg = "#89b4fa" },
+  { name = "Movies", text = "▣", fg = "#f5c2e7" },
+  { name = "Music", text = "▣", fg = "#f9e2af" },
+  { name = "Pictures", text = "▣", fg = "#94e2d5" },
+  { name = ".config", text = "▣", fg = "#f5c2e7" },
+  { name = ".git", text = "▣", fg = "#f38ba8" },
+]
+
+files = [
+  { name = ".gitignore", text = "git", fg = "#f38ba8" },
+  { name = "README.md", text = "md", fg = "#89b4fa" },
+]
+
+exts = [
+  { name = "md", text = "md", fg = "#89b4fa" },
+  { name = "toml", text = "cnf", fg = "#f9e2af" },
+  { name = "json", text = "jsn", fg = "#f9e2af" },
+  { name = "js", text = "js", fg = "#f9e2af" },
+  { name = "ts", text = "ts", fg = "#89b4fa" },
+  { name = "tsx", text = "tsx", fg = "#89b4fa" },
+  { name = "py", text = "py", fg = "#a6e3a1" },
+  { name = "rs", text = "rs", fg = "#f38ba8" },
+  { name = "go", text = "go", fg = "#94e2d5" },
+  { name = "html", text = "htm", fg = "#f38ba8" },
+  { name = "css", text = "css", fg = "#89b4fa" },
+  { name = "png", text = "img", fg = "#94e2d5" },
+  { name = "jpg", text = "img", fg = "#94e2d5" },
+  { name = "jpeg", text = "img", fg = "#94e2d5" },
+  { name = "gif", text = "img", fg = "#94e2d5" },
+  { name = "webp", text = "img", fg = "#94e2d5" },
+  { name = "mp4", text = "vid", fg = "#f5c2e7" },
+  { name = "mov", text = "vid", fg = "#f5c2e7" },
+  { name = "mp3", text = "aud", fg = "#f9e2af" },
+  { name = "flac", text = "aud", fg = "#f9e2af" },
+  { name = "pdf", text = "pdf", fg = "#f38ba8" },
+  { name = "zip", text = "zip", fg = "#f5c2e7" },
+  { name = "7z", text = "7z", fg = "#f5c2e7" },
+  { name = "rar", text = "rar", fg = "#f5c2e7" },
+  { name = "tar", text = "tar", fg = "#f5c2e7" },
+  { name = "gz", text = "gz", fg = "#f5c2e7" },
+]
+
+conds = [
+  { if = "orphan", text = "!", fg = "#f38ba8" },
+  { if = "link", text = "@", fg = "#94e2d5" },
+  { if = "dir", text = "▣", fg = "#89b4fa" },
+  { if = "exec", text = "*", fg = "#a6e3a1" },
+  { if = "!dir", text = "•", fg = "#cdd6f4" },
+]

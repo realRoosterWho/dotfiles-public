@@ -1,0 +1,17 @@
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = false
+
+[rebase]
+	autoStash = true
+
+[color]
+	ui = auto
+
+[core]
+	excludesfile = ~/.gitignore_global
+
+[include]
+	path = ~/.gitconfig.local

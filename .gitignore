@@ -1,0 +1,15 @@
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.backup
+*.swp
+*.swo
+.stversions
+.idea/
+.vscode/
+.env
+.env.*
+**/.DS_Store
+**/.cache/
+**/lazy-lock-private.json

@@ -1,0 +1,17 @@
+[mgr]
+prepend_keymap = [
+  { on = ["g", "h"], run = "cd ~", desc = "Home" },
+  { on = ["g", "d"], run = "cd ~/Desktop", desc = "Desktop" },
+  { on = ["g", "D"], run = "cd ~/Downloads", desc = "Downloads" },
+  { on = ["g", "c"], run = "cd ~/.config", desc = "Config" },
+  { on = ["g", "s"], run = "plugin vcs-files", desc = "Show Git changes" },
+  { on = ["g", "v"], run = "shell -- git diff --color=always -- %h | less -R", desc = "View Git diff" },
+  { on = ["g", "V"], run = "shell -- git diff --cached --color=always -- %h | less -R", desc = "View staged Git diff" },
+  { on = ["g", "y"], run = "cd ~/.config/yazi", desc = "Yazi config" },
+  { on = ["="], run = "plugin diff", desc = "Diff selected and hovered" },
+  { on = ["e"], run = "open", desc = "Open with vim/default" },
+  { on = ["E"], run = "open --interactive", desc = "Open with..." },
+  { on = ["R"], run = "open --interactive", desc = "Choose opener" },
+  { on = ["."], run = "hidden toggle", desc = "Toggle hidden files" },
+  { on = ["<C-r>"], run = "refresh", desc = "Refresh" },
+]

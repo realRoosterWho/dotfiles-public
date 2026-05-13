@@ -1,0 +1,6 @@
+# Local-only zsh overrides.
+# Copy to ~/.zshrc.local and keep it out of git.
+
+# Example:
+# export PATH="$HOME/bin:$PATH"
+# alias workrepo='cd ~/code/work'
